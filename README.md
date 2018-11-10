@@ -28,7 +28,7 @@ git init
 git clone 網址
 ```
 ### 使用git備份等功能
-把所有檔案加入準備commit:
+把所有檔案改動加入，準備commit:
 ```
 git add -A
 ```
@@ -36,7 +36,7 @@ git add -A
 ```
 git commit -m "說明這次改動"
 ```
-查看目前狀態:
+查看目前狀態(按 **q** 離開):
 ```
 git status
 ```

@@ -74,12 +74,28 @@ git checkout 分支名稱
 ```
 git merge 分支名稱
 ```
+刪除分支:
+```
+git branch --delete 分支名稱
+```
+加入改動到最新情況:
+```
+git rebase 原分支名稱
+```
 ### github遠端相關
-從網站複製repo
+從網站複製repo:
 ```
 git clone 網址
 ```
-更新所有remote分支
+更新所有remote分支:
 ```
 git fetch --all
+```
+local端與remote端同步:
+```
+git pull
+```
+remote端與local端同步:
+```
+git push
 ```

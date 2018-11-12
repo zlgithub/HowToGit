@@ -1,8 +1,5 @@
 # HowToGit
 學習如何使用git與github。
-
-# 注意!整篇文章正在製作中  
-
 ## 下載git
 ![image](https://github.com/zlgithub/HowToGit/blob/master/img/git.png)  
 [連結](https://git-scm.com/ "https://git-scm.com/")  

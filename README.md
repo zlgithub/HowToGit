@@ -32,10 +32,6 @@ cd 資料夾位置
 ```
 git init
 ```
-從網站複製
-```
-git clone 網址
-```
 ### 使用git備份等功能
 把所有檔案改動加入，準備commit:
 ```
@@ -77,4 +73,13 @@ git checkout 分支名稱
 合併分支:
 ```
 git merge 分支名稱
+```
+### github遠端相關
+從網站複製repo
+```
+git clone 網址
+```
+更新所有remote分支
+```
+git fetch --all
 ```

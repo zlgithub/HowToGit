@@ -7,19 +7,19 @@
 在 *Git Bash* 中使用指令   
 ## git的常用指令(變動值以中文顯示) 
 ### git設定
-查看設定內容
+查看設定內容:
 ```
 git config --list
 ```
-設定名稱
+設定名稱:
 ```
 git config --global user.name 名稱
 ```
-設定email
+設定email:
 ```
 git config --global user.email 信箱
 ```
-查看log
+查看log(按 **q** 離開):
 ```
 git log
 ```
@@ -62,19 +62,19 @@ git reset --hard
 ```
 git branch
 ```
-內建的查看branch介面
+內建的查看branch介面:
 ```
 gitk --all &
 ```
-建立新分支
+建立新分支:
 ```
 git branch 新分支名稱
 ```
-轉換分支
+轉換分支:
 ```
 git checkout 分支名稱
 ```
-合併分支
+合併分支:
 ```
 git merge 分支名稱
 ```

@@ -37,7 +37,11 @@ git init
 ```
 git add -A
 ```
-簡易commit(備份):
+取消加入(repo與stage):
+```
+git reset
+```
+簡易commit:
 ```
 git commit -m "說明這次改動"
 ```
@@ -87,7 +91,7 @@ git rebase 原分支名稱
 ```
 git clone 網址
 ```
-更新所有remote分支:
+更新所有remote分支(非合併):
 ```
 git fetch --all
 ```
@@ -99,3 +103,21 @@ remote端與local端同步:
 ```
 git push
 ```
+### 忽略檔案
+產生 *.gitignore*:
+```
+touch .gitignore
+```
+編輯 *.gitignore* ，每行輸入要忽略的:  
+``
+檔名.附檔名
+``
+忽略檔案  
+``
+*.副檔名
+``
+忽略全部相同副檔名檔案  
+``
+.gitignore
+``
+忽略 *.gitignore* 本身  
